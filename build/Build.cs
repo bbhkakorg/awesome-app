@@ -198,7 +198,7 @@ class Build : NukeBuild, IHaveGit
         .Requires(() => NuGetApiKey)
         .Executes(() =>
         {
-            Serilog.Log.Information("Pushing packages here...");
+            Serilog.Log.Information("Pushing packages here....");
         });
 
     Target BuildDockerImage => _ => _
